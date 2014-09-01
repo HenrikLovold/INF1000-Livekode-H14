@@ -5,7 +5,7 @@ Kode fra mine gruppetimer i INF1000 høsten 2014. Gjør hva du vil med koden, s�
 
 Oppgaver fra Trix gis følgende filnavn: OppgaveXXX, hvor XXX representerer oppgavenummeret (x.x.x). For eksempel: Oppgave 1.1.2 -> Oppgave112.java
 
-
+\n\n\n\n
 
     This code is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
