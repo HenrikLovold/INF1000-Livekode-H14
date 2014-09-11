@@ -10,7 +10,7 @@ class MedArgumenter{
 
     public static void toTall(int x, int y){
 	
-	System.out.println("Tall x: " + x + " Tall y: " + y); 
+	System.out.println("Tall x: " + x + " Tall y: " + y);
 
     }
 }
