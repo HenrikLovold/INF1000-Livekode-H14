@@ -3,73 +3,63 @@ public class Bondegard {
 	Hest[] stall = new Hest[5];
 	Ku[] fjos = new Ku[30];
 
-	int griseteller = 0;
-	int hesteteller = 0;
-	int kuteller = 0;
-
 	public void settInnGris(Gris g){
-		if(griseteller < grisebinge.length){
-			grisebinge[griseteller] = g;
-			griseteller++;
-		} else {
-			System.out.println("Bingen er full");
-		}
+		for (int i = 0; i < grisebinge.length; i++) {
+        	if (grisebinge[i] == null) {
+           		grisebinge[i] = g;
+            	return;
+        	}
+    	}
 	}
 
 	public void settInnHest(Hest h){
-		if(hesteteller < stall.length){
-			stall[hesteteller] = h;
-			hesteteller++;
-		} else {
-			System.out.println("Stallen er full");
-		}
+		for (int i = 0; i < stall.length; i++) {
+        	if (stall[i] == null) {
+           		stall[i] = h;
+            	return;
+        	}
+    	}
 	}
 
 	public void settInnKu(Ku k){
-		if(kuteller < fjos.length){
-			fjos[kuteller] = k;
-			kuteller++;
-		} else {
-			System.out.println("Fjoset er fullt");
-		}
+		for (int i = 0; i < fjos.length; i++) {
+        	if (fjos[i] == null) {
+           		fjos[i] = k;
+            	return;
+        	}
+    	}
 	}
 
 	public void selgDyr(String type, int antall){
 		if(type.equalsIgnoreCase("gris")){
 
-			for(int i = 0; i < antall; i++){
-				if(griseteller > 0){
-					griseteller--;
-					grisebinge[griseteller] = null;
-					System.out.println("Solgte en gris.");
-				} else {
-					System.out.println("Alle griser er solgt, du kan ikke selge flere.");
-				}
-			}
+			for (int i = 0; i < grisebinge.length; i++) {
+                if (grisebinge[i] != null && antall > 0) {
+                    grisebinge[i] = null;
+                    antall--;
+                    System.out.println("Solgte en gris.");
+                }
+            }
 
 		} else if (type.equalsIgnoreCase("hest")) {
 
-			for(int i = 0; i < antall; i++){
-				if(hesteteller > 0){
-					hesteteller--;
-					stall[hesteteller] = null;
-					System.out.println("Solgte en hest.");
-				} else {
-					System.out.println("Alle hester er solgt, du kan ikke selge flere.");
-				}
-			}
+			for (int i = 0; i < stall.length; i++) {
+                if (stall[i] != null && antall > 0) {
+                    stall[i] = null;
+                    antall--;
+                    System.out.println("Solgte en hest.");
+                }
+            }
 
 		} else if (type.equalsIgnoreCase("ku")){
 
-			for(int i = 0; i < antall; i++){
-				if(kuteller > 0){
-					kuteller--;
-					fjos[kuteller] = null;
-					System.out.println("Solgte en ku.");
-				} else {
-					System.out.println("Alle kyr er solgt, du kan ikke selge flere.");
-				}
-			}
+			for (int i = 0; i < fjos.length; i++) {
+                if (fjos[i] != null && antall > 0) {
+                    fjos[i] = null;
+                    antall--;
+                    System.out.println("Solgte en ku.");
+                }
+            }
 
 		} else {
 			System.out.println("Ugyldig valg, dyr ikke funnet.");
