@@ -1,18 +1,18 @@
-1	Cune Rioja Imperial Gran Reserva	2004	95	$63
-2	Château Canon-La Gaffelière St.-Emilion	2010	96	$103
-3	Domaine Serene Pinot Noir Willamette Valley Evenstad Reserve	2010	95	$65
-4	Hewitt Cabernet Sauvignon Rutherford	2010	95	$92
-5	Kongsgaard Chardonnay Napa Valley	2010	95	$75
-6	Giuseppe Mascarello & Figlio Barolo Monprivato	2008	95	$110
-7	Domaine du Pégaü Châteauneuf-du-Pape Cuvée Réservée	2010	97	$120
-8	Château de Beaucastel Châteauneuf-du-Pape	2010	96	$120
-9	Lewis Cabernet Sauvignon Napa Valley Reserve	2010	96	$135
-10	Quilceda Creek Cabernet Sauvignon Columbia Valley	2010	95	$135
-11	Reynvaan Syrah Walla Walla Valley Stonessence	2010	98	$70
-12	Turley Zinfandel Paso Robles Dusi Vineyard	2011	95	$42
-13	Croft Vintage Port	2011	97	$93
-14	Bedrock The Bedrock Heritage Sonoma Valle	2011	95	$37
-15	Olivier Ravoire Gigondas	2011	94	$33
-16	G.D. Vajra Barolo Albe	2008	94	$42
-17	Alexana Pinot Noir Dundee Hills Revana Vineyard	2010	94	$42
-18	Poggerino Chianti Classico	2010	93	$25
+12 Turley Zinfandel Paso Robles Dusi Vineyard 2011 95 $42
+4 Hewitt Cabernet Sauvignon Rutherford 2010 95 $92
+18 Poggerino Chianti Classico 2010 93 $25
+13 Croft Vintage Port 2011 97 $93
+1 Cune Rioja Imperial Gran Reserva 2004 95 $63
+3 Domaine Serene Pinot Noir Willamette Valley Evenstad Reserve 2010 95 $65
+9 Lewis Cabernet Sauvignon Napa Valley Reserve 2010 96 $135
+8 Château de Beaucastel Châteauneuf-du-Pape 2010 96 $120
+11 Reynvaan Syrah Walla Walla Valley Stonessence 2010 98 $70
+15 Olivier Ravoire Gigondas 2011 94 $33
+2 Château Canon-La Gaffelière St.-Emilion 2010 96 $103
+6 Giuseppe Mascarello & Figlio Barolo Monprivato 2008 95 $110
+14 Bedrock The Bedrock Heritage Sonoma Valle 2011 95 $37
+7 Domaine du Pégaü Châteauneuf-du-Pape Cuvée Réservée 2010 97 $120
+5 Kongsgaard Chardonnay Napa Valley 2010 95 $75
+17 Alexana Pinot Noir Dundee Hills Revana Vineyard 2010 94 $42
+16 G.D. Vajra Barolo Albe 2008 94 $42
+10 Ankerpils 2010 95 $135

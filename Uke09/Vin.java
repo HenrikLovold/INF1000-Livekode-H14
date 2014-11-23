@@ -14,4 +14,21 @@ public class Vin{
 		this.aargang = aargang;
 		this.pris = pris;
 	}
+	
+	public String toString(){
+		return nummer + " " + navn + " " + poeng + " " + aargang + " $" + pris;
+	}
+	
+	public void setNavn(String navn) {
+		this.navn = navn;
+	}
+	
+	public String getNavn() {
+		return navn;
+	}
+	
 }
+
+
+
+
